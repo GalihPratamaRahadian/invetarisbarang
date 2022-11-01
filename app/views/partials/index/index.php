@@ -1,7 +1,13 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
         <?php 
         $page_id = null;
         $comp_model = new SharedController;
         ?>
+        </head>
+        <body>
+        <link rel="stylesheet" href="<?php echo CSS_DIR ?>">
         <div  class=" py-5">
             <div class="container">
                 <div class="row ">
@@ -12,7 +18,7 @@
                                     <h2 class="text-capitalize"><center><?php echo SITE_NAME ?></center></h2>
                                 </div>
                                 <p>
-                                <div class=""><div><center><img src="assets/images/logo-pelindo.jpg" width="280" height="100" /></center></div>
+                                <div class=""><div><center><img src="<?php echo SITE_LOGO ?>" width="250" height="200" /></center></div>
                         <div><br>
                        Aplikasi inventaris barang ini merupakan sofware sebagai alat bantu untuk sistematis yang bisa mengawasi, melacak kondisi sebuah barang yang terdapat didalam lingkungan sebuah kantor baik pemerintah ataupun swasta</div>
                     </div>
@@ -73,4 +79,6 @@
                 </div>
             </div>
         </div>
+    </head>
+</html>
         

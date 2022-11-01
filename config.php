@@ -32,12 +32,12 @@ define("NOROLE", 404);
 define("FORBIDDEN", 403);
 
 // Application Files and Directories 
-define("IMG_DIR",  "assets/images/");
+define("IMG_DIR",  "assets/images/kapal.jpg");
 define("FONTS_DIR",  "assets/fonts/");
 define("SITE_FAVICON", IMG_DIR . "icon-pelindo.ico");
 define("SITE_LOGO", IMG_DIR . "LOGO.png");
 
-define("CSS_DIR", SITE_ADDR . "assets/css/");
+define("CSS_DIR", SITE_ADDR . "assets/css/custom-style.css");
 define("JS_DIR", SITE_ADDR . "assets/js/");
 
 define("APP_DIR", "app/");

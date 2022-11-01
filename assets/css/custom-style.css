@@ -4,12 +4,13 @@ You can set styles for different pages
 Examples:*/
 
 body.products-index {
-	background:url('assets/images/kapal.jpg');
-	background-size:cover;
+	background-image: url('assets/images/kapal.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 body.products-view {
-	background:url('../images/kapal.jpg');
+	background-image:url('../images/kapal.jpg');
 	background-size:cover;
 }
 
@@ -19,18 +20,23 @@ body.products-index, body.products-view, body.products-view, body.products-edit 
 }
 
 body.index-index {
-    background:url('assets/images/kapal.jpg');
-	background-size:cover;
+    background-image: url('../images/AudiRS4Avant2021.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 body.home-index {
-    background:url('assets/images/kapal.jpg');
-	background-size:cover;
+    background-image:url('assets/images/kapal.jpg');
+	background-size: cover;
+    background-attachment: fixed;
 }
 
 body.index-register {
-	background:url('assets/images/kapal.jpg');
-	background-size:cover;
+	background-image:url('assets/images/kapal.jpg');
+	background-size: cover;
+    background-attachment: fixed;
 }
 
 body {
